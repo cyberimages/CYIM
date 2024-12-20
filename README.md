@@ -1,7 +1,5 @@
 # CyberGenerateOS
 
-![CyberGenerateOS Banner](./assets/banner.png)
-
 ## Overview
 CyberGenerateOS is an advanced, modular, AI-powered operating system designed for creative professionals, developers, and enthusiasts. By integrating state-of-the-art machine learning models, dynamic rendering pipelines, and a powerful API ecosystem, it redefines the way users interact with generative AI. Built with scalability and adaptability in mind, it serves as a foundation for creating, sharing, and managing high-quality digital content.
 

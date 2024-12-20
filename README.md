@@ -209,16 +209,4 @@ Refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
----
-
-### Example Outputs
-
-#### Art
-![Example Art](./examples/art_output.png)
-
-#### Music
-Download an example composition: [example_track.mp3](./examples/example_track.mp3)
-
----
-
-Stay updated by following us on [Twitter](https://twitter.com/yourprofile) and joining our [Discord community](https://discord.gg/yourserver).
+Stay updated by following us on [Twitter]([https://twitter.com/yourprofile](https://x.com/cybergenerateOS)

@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.env/
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Logs and debug files
+logs/
+*.log
+*.out
+*.err
+
+# Output files
+output/
+test_output/
+
+# Model files
+models/
+*.pth
+*.h5
+*.onnx
+
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+*.env.docker
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.temp
+*.bak
+*.old
+
+# Test data and cache
+test_data/
+.cache/
+coverage/
+*.cover
+*.coverage
+
+# AWS credentials
+.aws/
+
+# Git
+!.gitkeep

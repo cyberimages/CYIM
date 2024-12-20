@@ -209,4 +209,4 @@ Refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-Stay updated by following us on [Twitter]([https://twitter.com/yourprofile](https://x.com/cybergenerateOS)
+Stay updated by following us on [Twitter](https://x.com/cybergenerateOS)

@@ -1,0 +1,72 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        name: Remove trailing whitespace
+        description: Removes trailing whitespace from files
+        types: [text]
+      - id: end-of-file-fixer
+        name: Fix end-of-file newline
+        description: Ensures files end with a single newline
+        types: [text]
+      - id: check-yaml
+        name: Validate YAML files
+        description: Ensures YAML files are properly formatted
+        types: [yaml]
+      - id: check-json
+        name: Validate JSON files
+        description: Ensures JSON files are properly formatted
+        types: [json]
+
+  - repo: https://github.com/psf/black
+    rev: 23.1.0
+    hooks:
+      - id: black
+        name: Python code formatter
+        description: Formats Python files using Black
+        language_version: python3.10
+
+  - repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+      - id: flake8
+        name: Lint Python files
+        description: Runs Flake8 to check for Python code quality issues
+        additional_dependencies: ["flake8-bugbear", "flake8-docstrings"]
+
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.53.0
+    hooks:
+      - id: eslint
+        name: Lint JavaScript/TypeScript files
+        description: Runs ESLint to check for JS/TS code quality issues
+        entry: npx eslint
+        types: [javascript, typescript]
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v0.991
+    hooks:
+      - id: mypy
+        name: Type-check Python files
+        description: Static type checking for Python using MyPy
+        language_version: python3.10
+
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.9.0
+    hooks:
+      - id: python-check-blanket-noqa
+        name: Prohibit blanket noqa
+        description: Prevents the use of `# noqa` without specific codes
+        language_version: python3.10
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v2.9.0
+    hooks:
+      - id: prettier
+        name: Prettify code
+        description: Formats code for HTML, CSS, JS, TS, JSON, YAML, etc.
+        entry: npx prettier
+        args: ["--write"]
+        types: [javascript, json, css, html, yaml, markdown]
+

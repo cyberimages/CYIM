@@ -120,20 +120,11 @@ The Command-Line Interface (CLI) provides direct access to CyberGenerateOS funct
 python generate.py --task art --input "A futuristic neon cityscape" --style "Cyberpunk" --output ./output/art.png
 ```
 - **Parameters:**
-  - `--task`: Specifies the task type (e.g., art, music).
+  - `--task`: Specifies the task type
   - `--input`: Description or prompt for the AI to process.
   - `--style`: Optional style to apply to the generated output.
   - `--output`: File path to save the generated content.
 
-#### Example: Generate Music
-```bash
-python generate.py --task music --input "Ambient meditation track" --duration 300 --output ./output/meditation.mp3
-```
-- **Parameters:**
-  - `--task`: Specifies the task type (e.g., art, music).
-  - `--input`: Description of the desired music.
-  - `--duration`: Duration of the generated track in seconds.
-  - `--output`: File path to save the generated music.
 
 ### API Access
 
@@ -171,15 +162,6 @@ Extend CyberGenerateOS by adding custom plugins:
            return transformed_data
    ```
 3. Register the plugin in the system configuration file.
-
-### Web Interface
-
-The web interface provides a user-friendly experience for:
-- Art generation with real-time previews.
-- Music composition with playback options.
-- Workflow automation and scheduling tasks.
-
-Access the interface at `http://localhost:3000` once the application is running.
 
 ## Roadmap
 
